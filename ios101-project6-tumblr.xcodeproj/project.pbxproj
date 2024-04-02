@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC88D77F2BBC4500009ABD5A /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC88D77E2BBC4500009ABD5A /* PostDetailViewController.swift */; };
+		DC88D7812BBC540C009ABD5A /* String+HTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC88D7802BBC540C009ABD5A /* String+HTML.swift */; };
 		ED54EF4D29D5382800B6AD22 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54EF4C29D5382800B6AD22 /* String+Extensions.swift */; };
 		ED59161029BC307D000F25AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED59160F29BC307D000F25AE /* AppDelegate.swift */; };
 		ED59161229BC307D000F25AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED59161129BC307D000F25AE /* SceneDelegate.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC88D77E2BBC4500009ABD5A /* PostDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewController.swift; sourceTree = "<group>"; };
+		DC88D7802BBC540C009ABD5A /* String+HTML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+HTML.swift"; sourceTree = "<group>"; };
 		ED54EF4C29D5382800B6AD22 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		ED59160C29BC307D000F25AE /* ios101-project6-tumblr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios101-project6-tumblr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED59160F29BC307D000F25AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +78,8 @@
 				ED59161829BC307E000F25AE /* Assets.xcassets */,
 				ED59161A29BC307E000F25AE /* LaunchScreen.storyboard */,
 				ED59161D29BC307E000F25AE /* Info.plist */,
+				DC88D77E2BBC4500009ABD5A /* PostDetailViewController.swift */,
+				DC88D7802BBC540C009ABD5A /* String+HTML.swift */,
 			);
 			path = "ios101-project6-tumblr";
 			sourceTree = "<group>";
@@ -156,7 +162,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED59161429BC307D000F25AE /* ViewController.swift in Sources */,
+				DC88D77F2BBC4500009ABD5A /* PostDetailViewController.swift in Sources */,
 				ED59161029BC307D000F25AE /* AppDelegate.swift in Sources */,
+				DC88D7812BBC540C009ABD5A /* String+HTML.swift in Sources */,
 				ED59161229BC307D000F25AE /* SceneDelegate.swift in Sources */,
 				ED59162429BC4921000F25AE /* Post.swift in Sources */,
 				ED54EF4D29D5382800B6AD22 /* String+Extensions.swift in Sources */,
