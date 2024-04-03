@@ -13,7 +13,6 @@ import Nuke
 class PostDetailViewController: UIViewController {
     @IBOutlet weak var backgroundImageView: UIImageView!
     @IBOutlet weak var overviewDetailsLabel: UILabel!
-    
     @IBOutlet weak var scrollView: UIScrollView!
     var post: Post!
     
@@ -27,6 +26,7 @@ class PostDetailViewController: UIViewController {
             let url = photo.originalSize.url
             Nuke.loadImage(with: url, into: backgroundImageView)
         }
+        navigationItem.largeTitleDisplayMode = .never
     }
     
 

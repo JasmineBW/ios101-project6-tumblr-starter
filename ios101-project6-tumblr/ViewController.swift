@@ -17,7 +17,7 @@ class ViewController: UIViewController, UITableViewDataSource {
 
         tableView.dataSource = self
         fetchPosts()
-
+        navigationController?.navigationBar.prefersLargeTitles = true
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -29,6 +29,15 @@ class ViewController: UIViewController, UITableViewDataSource {
         
         postdetailViewController.post = selectedPost
 
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+
+        if let selectedIndexPath = tableView.indexPathForSelectedRow {
+
+            tableView.deselectRow(at: selectedIndexPath, animated: animated)
+        }
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
